@@ -58,7 +58,7 @@ send_telegram_notification() {
         
         if [ "$status" == "success" ]; then
             message="
-<b>🚀 FST Panel VPN 🚀</b>
+<b>🚀 GTN Panel VPN 🚀</b>
 <b>══════════════════════════</b>
 <b>✨ TROJAN TRIAL ACCOUNT CREATED</b>
 <b>══════════════════════════</b>
@@ -83,11 +83,11 @@ send_telegram_notification() {
 <b>📱 TLS Link:</b> <code>$trojan_tls</code>
 <b>📱 GRPC Link:</b> <code>$trojan_grpc</code>
 <b>══════════════════════════</b>
-<b>🌟 FST Panel VPN 🌟</b>
+<b>🌟 GTN Panel VPN 🌟</b>
 "
         else
             message="
-<b>🚀 FST Panel VPN 🚀</b>
+<b>🚀 GTN Panel VPN 🚀</b>
 <b>══════════════════════════</b>
 <b>❌ TROJAN TRIAL CREATION FAILED</b>
 <b>══════════════════════════</b>
@@ -96,7 +96,7 @@ send_telegram_notification() {
 <b>🌐 Host:</b> <code>$domain</code>
 <b>❗ Error:</b> <code>$error_msg</code>
 <b>══════════════════════════</b>
-<b>🌟 FST Panel VPN 🌟</b>
+<b>🌟 GTN Panel VPN 🌟</b>
 "
         fi
         
@@ -133,7 +133,7 @@ clear
 
 # User data input
 print_rainbow "══════════════════════════════════════════════════════════════════════"
-print_rainbow "                     Script by FST Panel VPN"
+print_rainbow "                     Script by GTN Panel VPN"
 print_rainbow "                     Input xray/trojan account"
 print_rainbow "                         Enter User Data  "
 print_rainbow "══════════════════════════════════════════════════════════════════════"
