@@ -157,7 +157,7 @@ if [ -z "$1" ]; then
     clear
     echo -e "${green}╔═════════════════════════════════════════════════════════════════════════╗${neutral}"
     echo -e "${green}                     SELAMAT DATANG DI SCRIPT INSTALASI                    ${neutral}"
-    echo -e "${green}                           GTN Panel VPN                            ${neutral}"
+    echo -e "${green}                                GTN Panel VPN                            ${neutral}"
     echo -e "${green}                               Script Premium                              ${neutral}"
     echo -e "${green}╚═════════════════════════════════════════════════════════════════════════╝${neutral}"
     echo -e ""
