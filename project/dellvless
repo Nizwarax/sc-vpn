@@ -57,7 +57,7 @@ send_telegram_notification() {
         
         if [ "$status" == "success" ]; then
             message="
-<b>🚀 FST Panel VPN 🚀</b>
+<b>🚀 GTN Panel VPN 🚀</b>
 <b>━━━━━━━━━━━━━━━━━━</b>
 <b>✅ VLESS ACCOUNT DELETED</b>
 <b>━━━━━━━━━━━━━━━━━━</b>
@@ -66,11 +66,11 @@ send_telegram_notification() {
 <b>⏰ Deleted Date:</b> <code>$(date '+%Y-%m-%d %H:%M:%S')</code>
 <b>✅ Status:</b> <code>Successfully Deleted</code>
 <b>━━━━━━━━━━━━━━━━━━</b>
-<b>🌟 FST Panel VPN 🌟</b>
+<b>🌟 GTN Panel VPN 🌟</b>
 "
         else
             message="
-<b>🚀 FST Panel VPN 🚀</b>
+<b>🚀 GTN Panel VPN 🚀</b>
 <b>━━━━━━━━━━━━━━━━━━</b>
 <b>❌ VLESS ACCOUNT DELETION FAILED</b>
 <b>━━━━━━━━━━━━━━━━━━</b>
@@ -78,7 +78,7 @@ send_telegram_notification() {
 <b>🌐 Host:</b> <code>$domain</code>
 <b>❗ Error:</b> <code>$error_msg</code>
 <b>━━━━━━━━━━━━━━━━━━</b>
-<b>🌟 FST Panel VPN 🌟</b>
+<b>🌟 GTN Panel VPN 🌟</b>
 "
         fi
         
@@ -228,9 +228,9 @@ menuvless
 echo -e ""
 echo -e "${green}╔═══════════════════════════════════════════════════════════════════════╗${neutral}"
 echo -e "${green}║                    Terima kasih telah menggunakan                     ║${neutral}"
-echo -e "${green}║                       FST VPN PANEL                            ║${neutral}"
+echo -e "${green}║                       GTN VPN PANEL                            ║${neutral}"
 echo -e "${green}║                                                                       ║${neutral}"
-echo -e "${green}║                 📱 Telegram: https://t.me/FST                  ║${neutral}"
+echo -e "${green}║                 📱 Telegram: https://t.me/Deki_niswara                  ║${neutral}"
 echo -e "${green}║                                                                       ║${neutral}"
 echo -e "${green}║            Ketik perintah ${yellow}menu${green} untuk membuka panel kembali            ║${neutral}"
 echo -e "${green}╚═══════════════════════════════════════════════════════════════════════╝${neutral}"
