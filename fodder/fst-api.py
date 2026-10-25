@@ -1009,7 +1009,7 @@ LOGIN_PAGE = '''
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login · FST Panel</title>
+<title>Login · GTN Panel</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#070b14;--card:rgba(18,24,38,.88);--border:rgba(148,163,184,.12);--text:#e8eef9;--muted:#8b9bb4;--p:#6366f1;--p2:#8b5cf6}
@@ -1039,7 +1039,7 @@ button:hover{transform:translateY(-1px);box-shadow:0 12px 28px rgba(99,102,241,.
 <body>
 <div class="wrap"><div class="card">
 <div class="logo">F</div>
-<h1>FST Panel</h1>
+<h1>GTN Panel</h1>
 <p class="sub">Masuk untuk mengelola VPN</p>
 % if error:
 <div class="error">{{error}}</div>
@@ -1062,7 +1062,7 @@ DASHBOARD_PAGE = '''
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FST Panel</title>
+<title>GTN Panel</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -1192,7 +1192,7 @@ tr:hover td{background:rgba(99,102,241,.04)}
   <header class="hdr">
     <div class="brand">
       <div class="bicon">F</div>
-      <div><h1>FST Panel</h1><small id="domain-label">VPN Manager</small></div>
+      <div><h1>GTN Panel</h1><small id="domain-label">VPN Manager</small></div>
     </div>
     <a href="{{prefix}}/logout" class="btn-g">Logout</a>
   </header>
@@ -1654,7 +1654,7 @@ setInterval(function(){
 '''
 
 if __name__ == "__main__":
-    print(f"FST Panel running → http://0.0.0.0:{PORT}")
+    print(f"GTN Panel running → http://0.0.0.0:{PORT}")
     print(f"Akses: http://domain{PREFIX}")
     print(f"Login: {ADMIN_USER} / {ADMIN_PASS}")
     print("API endpoints:")
