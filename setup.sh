@@ -161,7 +161,7 @@ if [ -z "$1" ]; then
     echo -e "${green}                               Script Premium                              ${neutral}"
     echo -e "${green}╚═════════════════════════════════════════════════════════════════════════╝${neutral}"
     echo -e ""
-    echo -e "${yellow}                  Copyright${reset} (C)${gray} https://t.me/FST${reset}"
+    echo -e "${yellow}                  Copyright${reset} (C)${gray} https://t.me/Deki_niswara${reset}"
     echo -e ""
     echo -e "${green}═══════════════════════════════════════════════════════════════════════════${neutral}"
     echo -e ""
@@ -1149,7 +1149,7 @@ RestartPreventExitStatus=23"
 wanted_by="WantedBy=multi-user.target"
 after="After=network-online.target nss-lookup.target"
 wants="Wants=network-online.target"
-documentation="Documentation=https://t.me/FST"
+documentation="Documentation=https://t.me/Deki_niswara"
 
 create_service() {
     local name=$1
@@ -1197,7 +1197,7 @@ sudo systemctl daemon-reload
 cat >/etc/systemd/system/ws.service <<EOF
 [Unit]
 Description=Python Proxy FST
-Documentation=https://t.me/FST
+Documentation=https://t.me/Deki_niswara
 ${after}
 [Service]
 Type=simple
@@ -1232,7 +1232,7 @@ EOF
 cat >/etc/systemd/system/limitip.service <<EOF
 [Unit]
 Description=Limit IP Usage Xray Service
-Documentation=https://t.me/FST
+Documentation=https://t.me/Deki_niswara
 After=syslog.target network-online.target
 [Service]
 User=root
@@ -1246,7 +1246,7 @@ EOF
 cat >/etc/systemd/system/limitquota.service <<EOF
 [Unit]
 Description=Limit Quota Usage Xray Service
-Documentation=https://t.me/FST
+Documentation=https://t.me/Deki_niswara
 After=syslog.target network-online.target
 [Service]
 User=root
@@ -1260,7 +1260,7 @@ EOF
 cat >/etc/systemd/system/badvpn.service <<EOF
 [Unit]
 Description=BadVPN UDP Service
-Documentation=https://t.me/FST
+Documentation=https://t.me/Deki_niswara
 After=syslog.target network-online.target
 [Service]
 User=root
@@ -1366,10 +1366,10 @@ done
 sudo systemctl restart netfilter-persistent
 
 # ============================================================
-# Install FST Panel API (Python + Bottle + systemd)
+# Install GTN Panel API (Python + Bottle + systemd)
 # ============================================================
 echo -e "${blue}══════════════════════════════════════════════════════════════════════${neutral}"
-echo -e "${green}                         Install FST Panel API              ${neutral}"
+echo -e "${green}                         Install GTN Panel API              ${neutral}"
 echo -e "${blue}══════════════════════════════════════════════════════════════════════${neutral}"
 
 FST_API_DIR="/usr/local/fst-panel"
@@ -1448,7 +1448,7 @@ cd
 
 clear
 echo -e "${blue}══════════════════════════════════════════════════════════════════════${neutral}"
-echo -e "${green}                               plugin FST        ${neutral}"
+echo -e "${green}                               plugin GTN        ${neutral}"
 echo -e "${blue}══════════════════════════════════════════════════════════════════════${neutral}"
 
 
