@@ -122,12 +122,12 @@ else
     log_error "Gagal memperbarui dellshadowsocks"
 fi
 
-log_action "Mengunduh dan memperbarui file dessh..."
-if curl -fsSL -o /usr/bin/dessh "${GITHUB_BASE}/project/dessh"; then
-    chmod +x /usr/bin/dessh
-    log_action "✓ dessh berhasil diperbarui"
+log_action "Mengunduh dan memperbarui file dellssh..."
+if curl -fsSL -o /usr/bin/dellssh "${GITHUB_BASE}/project/dellssh"; then
+    chmod +x /usr/bin/dellssh
+    log_action "✓ dellssh berhasil diperbarui"
 else
-    log_error "Gagal memperbarui dessh"
+    log_error "Gagal memperbarui dellssh"
 fi
 
 # Update renew akun
@@ -225,7 +225,7 @@ declare -A updated_files=(
     ["/usr/bin/dellvless"]="dellvless"
     ["/usr/bin/delltrojan"]="delltrojan"
     ["/usr/bin/dellshadowsocks"]="dellshadowsocks"
-    ["/usr/bin/dessh"]="dessh"
+    ["/usr/bin/dellssh"]="dellssh"
     ["/usr/bin/renewvmess"]="renewvmess"
     ["/usr/bin/renewvless"]="renewvless"
     ["/usr/bin/renewtrojan"]="renewtrojan"
