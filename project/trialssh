@@ -57,7 +57,7 @@ send_telegram_notification() {
         
         if [ "$status" == "success" ]; then
             message="
-<b>🚀 FST Panel VPN 🚀</b>
+<b>🚀 GTN Panel VPN 🚀</b>
 <b>══════════════════════════</b>
 <b>✨ SSH OVPN TRIAL ACCOUNT CREATED</b>
 <b>══════════════════════════</b>
@@ -86,11 +86,11 @@ send_telegram_notification() {
 <b>📱 OpenVPN Link:</b> <code>https://$domain:81/allovpn.zip</code>
 <b>📁 Save Account Link:</b> <code>https://$domain:81/ssh-$user.txt</code>
 <b>══════════════════════════</b>
-<b>🌟 FST Panel VPN 🌟</b>
+<b>🌟 GTN Panel VPN 🌟</b>
 "
         else
             message="
-<b>🚀 FST Panel VPN 🚀</b>
+<b>🚀 GTN Panel VPN 🚀</b>
 <b>══════════════════════════</b>
 <b>❌ SSH OVPN TRIAL CREATION FAILED</b>
 <b>══════════════════════════</b>
@@ -99,7 +99,7 @@ send_telegram_notification() {
 <b>🌐 Host:</b> <code>$domain</code>
 <b>❗ Error:</b> <code>$error_msg</code>
 <b>══════════════════════════</b>
-<b>🌟 FST Panel VPN 🌟</b>
+<b>🌟 GTN Panel VPN 🌟</b>
 "
         fi
         
@@ -135,7 +135,7 @@ clear
 
 # User data input
 print_rainbow "══════════════════════════════════════════════════════════════════════"
-print_rainbow "        Script by FST Panel VPN"
+print_rainbow "        Script by GTN Panel VPN"
 print_rainbow "    Input SSH trial account data"
 print_rainbow "            Enter User Data"
 print_rainbow "══════════════════════════════════════════════════════════════════════"
