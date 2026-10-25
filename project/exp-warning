@@ -50,7 +50,7 @@ $users
 📊 Total akun yang akan expired: $total
 💡 Segera perpanjang sebelum dihapus otomatis!
 ══════════════════════════
-🤖 Sistem Monitoring Otomatis - FST Panel"
+🤖 Sistem Monitoring Otomatis - GTN Panel"
 
     curl -s -X POST "https://api.telegram.org/bot${bot_token}/sendMessage" \
       -d "chat_id=${telegram_id}" \
